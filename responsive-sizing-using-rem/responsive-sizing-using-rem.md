@@ -91,13 +91,13 @@ But developers often find themselves writing lots of `media queries` to target a
 Instead, with this method, we have configured the value of `rem` to change as per the viewport. This would enable `height` and `width` of the `card`s and the `button`s to resize automatically as per the below table:
 
 
-| Element | Property | Value in `rem` | `XS` Viewport  | `SM` Viewport  | `MD` Viewport   | `LG` Viewport   |
-| ------- | -------- | -------------- | -------------- | -------------- | --------------- | --------------- |
+| Element | Property | Value in `rem` |  `XS` Viewport |  `SM` Viewport |   `MD` Viewport |   `LG` Viewport |
+| ------- | -------- | -------------: | -------------: | -------------: | --------------: | --------------: |
 |         |          |                | `1rem` = `4px` | `1rem` = `8px` | `1rem` = `10px` | `1rem` = `12px` |
-| Card    | Height   | `15rem`        | `60px`         | `120px`        | `150px`         | `180px`         |
-| Card    | Width    | `10rem`        | `40px`         | `80px`         | `100px`         | `120px`         |
-| Button  | Height   | `2.5rem`       | `10px`         | `20px`         | `25px`          | `30px`          |
-| Button  | Width    | `5rem`         | `20px`         | `40px`         | `50px`          | `60px`          |
+| Card    | Height   |        `15rem` |         `60px` |        `120px` |         `150px` |         `180px` |
+| Card    | Width    |        `10rem` |         `40px` |         `80px` |         `100px` |         `120px` |
+| Button  | Height   |       `2.5rem` |         `10px` |         `20px` |          `25px` |          `30px` |
+| Button  | Width    |         `5rem` |         `20px` |         `40px` |          `50px` |          `60px` |
 
 ---
 
