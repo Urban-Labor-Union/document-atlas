@@ -61,11 +61,11 @@ html {
 As per the code block, we can conclude the following:
 
 | Viewport                  | Minimum width | `rem` value |
-| ------------------------- | ------------- | ----------- |
-| Desktop                   | `992px`       | `12px`      |
-| Tablet                    | `768px`       | `10px`      |
-| Landscape Oriented Phones | `576px`       | `8px`       |
-| Portrait Oriented Phones  | `< 576px`     | `4px`       |
+| ------------------------- | ------------: | ----------: |
+| Desktop                   |       `992px` |      `12px` |
+| Tablet                    |       `768px` |      `10px` |
+| Landscape Oriented Phones |       `576px` |       `8px` |
+| Portrait Oriented Phones  |     `< 576px` |       `4px` |
 
 The `box-model` properties of UI elements can be provided with `rem` values to make their dimensions fully responsive
 
